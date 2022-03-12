@@ -157,7 +157,8 @@ hr{
 }
 
 .menutitle{
-    text-align: center;
+    position: relative;
+    left:42%;
     color: rgb(150, 7, 7);
     font-family:"Raleway",sans-serif ;
     font-size: 3rem;
