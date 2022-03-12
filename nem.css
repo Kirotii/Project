@@ -1,11 +1,8 @@
+
 body{
     margin:0;
     padding:0;
     background-color:burlywood;
-}
-#navbar{
-    padding-left:25%;
-    padding-right:25%;
 }
 #navbar ul{
     display: flex;
@@ -14,32 +11,35 @@ body{
     justify-content: center;
     align-items: center;
     list-style-type: none;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     font-family: "Raleway",sans-serif;
-    margin:0%;
-
+    font-size: 1rem;
 }
 .nav-logo{
     color:rgb(190, 3, 3);
-    font-size: 1.25rem;
-    border: 3px double brown;
-    border-radius: 50px ;
-    background-color: rgb(184, 152, 111)
+    font-size: 1.5rem;
 }
 .nav-logo:hover{
     color:brown
 }
+.nav-link-logo{
+    text-decoration: none;
+    color:rgb(150, 7, 7)
+}
 .nav-link{
     text-decoration: none;
-    color:rgb(0, 0, 0)
+    color:rgb(255, 255, 255)
 }
 .nav-link:hover{
+    color:brown
+}
+.nav-link-logo:hover{
     color:brown
 }
 .slideshow-container {
 position: absolute;
 left:15%;
-
+right:15%;
 }
 .mySlides {
     display: none;
@@ -47,7 +47,7 @@ left:15%;
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 45%;
     padding: 16px;
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -61,4 +61,43 @@ left:15%;
 }
 .prev:hover, .next:hover {
     background-color: rgba(184, 179, 179, 0.8);
+}
+.middle-text-container{
+    position: relative;
+    margin-top:15%;
+    text-align: center;
+}
+.middle-text{
+    font-size: 5rem;
+    color:rgb(150, 7, 7);
+    font-family: "Raleway",sans-serif;
+}
+.middle-text-caption{
+    font-size:2rem;
+    color:rgb(255, 255, 255);
+    font-family: "Raleway",sans-serif;
+}
+.popular-food-title{
+    font-size: 3rem;
+    color:rgb(150, 7, 7);
+    font-family: "Raleway",sans-serif;
+    margin-top:30rem;
+}
+.popular-food-container{
+    margin-top:3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.popular-food-image{
+    border-radius: 25%;
+}
+.popular-food-text{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: "Raleway",sans-serif;
+}
+hr{
+    border:6px solid black
 }
