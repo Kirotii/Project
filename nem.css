@@ -7,8 +7,8 @@ body{
 #navbar ul{
     display: flex;
     flex-direction: row;
-    gap:30px;
     justify-content: center;
+    gap:30px;
     align-items: center;
     list-style-type: none;
     color:rgb(255, 255, 255);
@@ -28,7 +28,8 @@ body{
 }
 .nav-link{
     text-decoration: none;
-    color:rgb(255, 255, 255)
+    color:rgb(255, 255, 255);
+    margin:0px;
 }
 .nav-link:hover{
     color:brown
@@ -38,7 +39,7 @@ body{
 }
 .slideshow-container {
 position: absolute;
-left:15%;
+left:12%;
 right:15%;
 }
 .mySlides {
@@ -48,7 +49,7 @@ right:15%;
     cursor: pointer;
     position: absolute;
     top: 45%;
-    padding: 16px;
+    padding: 15px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 60px;
@@ -64,7 +65,7 @@ right:15%;
 }
 .middle-text-container{
     position: relative;
-    margin-top:15%;
+    margin-top:17%;
     text-align: center;
 }
 .middle-text{
@@ -101,4 +102,106 @@ right:15%;
 }
 hr{
     border:6px solid black
+}
+
+.up-btn{
+    text-decoration: none;
+    background-color: rgb(109, 87, 58);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.dropbtn {
+    background-color: burlywood;
+    color:white;
+    font-family: "Raleway",sans-serif;
+    padding: 0px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(189, 166, 139);
+    min-width: 160px;
+    border-radius: 5px;
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: rgb(150, 7, 7);
+    text-decoration: none;
+    padding-left:15px;
+    display: block;
+}
+.dropdown-text{
+    font-family: "Raleway",sans-serif;
+    font-size: 1.5rem;
+}
+  
+.dropdown-content a:hover {background-color: rgb(148, 125, 95)}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menutitle{
+    text-align: center;
+    color: rgb(150, 7, 7);
+    font-family:"Raleway",sans-serif ;
+    font-size: 3rem;
+}
+.list-column{
+    list-style: none;
+    column-count: 3;
+    column-gap: 2rem;
+}
+@media (max-width: 1300px) {
+    .list-column{
+        column-count: 2;
+    }
+}
+@media (max-width: 800px) {
+    .list-column{
+        column-count: 1;
+    }
+}
+
+.list-column li{
+    color: white;
+    font-family: "Raleway",sans-serif;
+    font-size: 1.7rem;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.flex-item-left {
+    flex: 50%;
+}
+  
+.flex-item-right {
+    flex: 50%;
+}
+  
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+    }
+}
+img{
+    padding:10px 25px 10px 25px ;
 }

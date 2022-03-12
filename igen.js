@@ -18,4 +18,8 @@ function showSlides(n) {
         slides[i].style.display = "none";
     }
     slides[slideIndex-1].style.display = "block";
-  }
+};
+
+
+
+
