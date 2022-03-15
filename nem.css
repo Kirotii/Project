@@ -223,12 +223,7 @@ hr{
 .rgrid-container div{
     width:350px
 }
-.rgrid-container label{
-    font-size: 2rem;
-    color:rgb(150, 7, 7);
-    font-family: "Raleway",sans-serif;
-    padding-left: 10px;
-}
+
 .rgrid-container input{
     width:350px;
     height:35px;
@@ -236,9 +231,11 @@ hr{
     color:rgb(0, 0, 0);
     font-family: "Raleway",sans-serif;
     margin-left: 10px;
+    margin-top: 20px;
     background-color: rgb(189, 166, 139);
 }
 .rgrid-container textarea{
+    margin-top: 20px;
     margin-left:3%;
     font-size: 1.4rem;
     color:rgb(0, 0, 0);
