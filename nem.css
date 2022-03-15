@@ -188,20 +188,37 @@ hr{
     flex-wrap: wrap;
     justify-content: center;
 }
-  
-.flex-item-left {
-    flex: 50%;
-}
-  
-.flex-item-right {
-    flex: 50%;
-}
-  
-@media (max-width: 800px) {
-    .flex-item-right, .flex-item-left {
-      flex: 100%;
-    }
-}
-img{
+
+.flex-container img{
     padding:10px 25px 10px 25px ;
+    border-radius: 25%;
 }
+.reservation-text{
+    text-align: center;
+    font-size: 4.3rem;
+    color:rgb(150, 7, 7);
+    font-family: "Raleway",sans-serif;
+}
+
+.form-container label{
+    font-size: 1.7rem;
+    color:rgb(150, 7, 7);
+    font-family: "Raleway",sans-serif;
+    padding-left: 10px;
+}
+.form-container input{
+    font-size: 1.4rem;
+    color:rgb(0, 0, 0);
+    font-family: "Raleway",sans-serif;
+    margin-left: 10px;
+    background-color: rgb(189, 166, 139);
+}
+.form-container textarea{
+    font-size: 1.4rem;
+    color:rgb(0, 0, 0);
+    font-family: "Raleway",sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(189, 166, 139);
+}
+

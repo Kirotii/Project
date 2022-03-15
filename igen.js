@@ -23,3 +23,9 @@ function showSlides(n) {
 
 
 
+
+function reservationComplete(){
+    alert("Successful reservation \n \n Please check your E-Mail")
+}
+
+
