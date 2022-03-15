@@ -65,7 +65,7 @@ right:15%;
 }
 .middle-text-container{
     position: relative;
-    margin-top:17%;
+    margin-top:13%;
     text-align: center;
 }
 .middle-text{
@@ -82,7 +82,7 @@ right:15%;
     font-size: 3rem;
     color:rgb(150, 7, 7);
     font-family: "Raleway",sans-serif;
-    margin-top:30rem;
+    margin-top:30%;
     text-align: center;
 }
 .popular-food-container{
@@ -199,26 +199,189 @@ hr{
     color:rgb(150, 7, 7);
     font-family: "Raleway",sans-serif;
 }
+.rgrid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left:15%;
+    margin-right: 15%;
+    padding:15px;
+    border:10px dashed black;
+}
+@media (max-width: 1150px) {
+    .rgrid-container{
+        margin-left:5%;
+        margin-right:5%;
+    }
+}
 
-.form-container label{
-    font-size: 1.7rem;
+.rgrid-container div{
+    width:350px
+}
+.rgrid-container label{
+    font-size: 2rem;
     color:rgb(150, 7, 7);
     font-family: "Raleway",sans-serif;
     padding-left: 10px;
 }
-.form-container input{
+.rgrid-container input{
+    width:350px;
+    height:35px;
     font-size: 1.4rem;
     color:rgb(0, 0, 0);
     font-family: "Raleway",sans-serif;
     margin-left: 10px;
     background-color: rgb(189, 166, 139);
 }
-.form-container textarea{
+.rgrid-container textarea{
+    margin-left:3%;
     font-size: 1.4rem;
     color:rgb(0, 0, 0);
     font-family: "Raleway",sans-serif;
-    margin-left: 20px;
-    margin-top: 20px;
     background-color: rgb(189, 166, 139);
+    width: 350px;
+    max-width: 350px;
+    height: 140px;
+}
+.ritem1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.ritem2{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+@media (max-width:900px) {
+    .ritem2{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+.ritem3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.ritem4{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+@media (max-width:900px) {
+    .ritem4{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+.ritem5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+@media (max-width:900px) {
+    .ritem5{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+.ritem6{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+@media (max-width:900px) {
+    .ritem6{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+.ritem7{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+@media (max-width:900px) {
+    .ritem7{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
 }
 
+.cgrid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin:3% 15% 3% 15%;
+    align-items: center;
+    gap:30px;
+    border:10px dotted black;
+    padding:15px;
+}
+@media (max-width:975) {
+    .cgrid-container{
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width:600px) {
+    .cgrid-container{
+        margin:3% 0% 3% 0%;
+    }
+}
+.citem-image{
+    margin-left: 40%;
+}
+.citem-title{
+    font-size: 2rem;
+    color:rgb(150, 7, 7);
+    font-family: "Raleway",sans-serif;
+    text-align: center;
+}
+.citem-text{
+    font-size: 1.2rem;
+    color:black;
+    font-family: "Raleway",sans-serif;
+    text-align: center;
+}
+.citem1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.citem2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.citem3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+@media (max-width:975px) {
+    .citem3{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+.citem4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+@media (max-width:975px) {
+    .citem4{
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+}
+
+.citem5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+@media (max-width:975px) {
+    .citem5{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+}
+
+.citem6{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+@media (max-width:975px) {
+    .citem6{
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+}

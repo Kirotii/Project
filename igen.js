@@ -25,7 +25,7 @@ function showSlides(n) {
 
 
 function reservationComplete(){
-    alert("Successful reservation \n \n Please check your E-Mail")
+    alert("Successful reservation \n \nPlease check your E-Mail")
 }
 
 
